@@ -10,6 +10,17 @@ The underlying datasets (especially raw data such as images) are not included in
 
 As a result of this, some scripts cannot be run without having the corresponding datasets in the same directory. However, as previously mentioned, this repository will be updated with additional documentation, code, and supplementary materials as they become available.
 
+## Code descriptions
+
+Below are brief descriptions of what the different scripts and functions do, sorted by subfolder.
+
+### Figure S5
+
+- `length_estimation_v3.m`: used to estimate etch depth from optical microscope images, following the method outlined in Sec. S3A in the Supplementary Materials.
+- `helper.py`: contains helper functions to load scintillation enhancement and etch depth datasets.
+- `length_data_python.csv`: contains etch depth data for plotting in Python.
+- `plot_fn_of_etch_round.ipynb`: Jupyter Notebook that outputs Fig. 1(c)(iii).
+
 ## Corresponding authors
 
 - Simo Pajovic, [pajovics@mit.edu](mailto:pajovics@mit.edu) (current address: [pajovics@caltech.edu](mailto:pajovics@caltech.edu))
