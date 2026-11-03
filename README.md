@@ -1,25 +1,27 @@
 # Code repository for "Volumetric Nanophotonics for Enhanced Scintillation and Remote Light Outcoupling"
 
-Scripts and functions for data processing used in the manuscript "Volumetric Nanophotonics for Enhanced Scintillation and Remote Light Outcoupling" by S. Pajovic *et al.* (2026). This code is made publicly available to facilitate review of the methods reported in the manuscript.
+Scripts and functions for data processing used in the manuscript "Volumetric Nanophotonics for Enhanced Scintillation and Remote Light Outcoupling" by S. Pajovic *et al.* (2026).
 
-Please note that this repository is a work in progress and incomplete as of the last commit. This repository will be updated periodically (e.g., when the arXiv identifier of the preprint becomes available).
+Link to preprint: [https://arxiv.org/abs/2610.39079](https://arxiv.org/abs/2610.39079)
+
+This code is made publicly available to facilitate review of the methods reported in the manuscript. Code and data to produce the figures in the main text are included and have been tested. Please note that this repository is a work in progress and will be updated periodically.
 
 ## Data availability
 
 Some raw data are not included in this repository (for now) due to their large size and potential restrictions on distribution. Data supporting the findings of the manuscript not found in this repository may be made available by the corresponding author(s) upon reasonable request, subject to any data sharing restrictions.
 
-As previously mentioned, this repository will be updated with additional documentation, code, and supplementary materials as they become available.
+As previously mentioned, this repository will be updated with additional documentation, code, and supplementary materials as they can be made available.
 
 ## Code and data descriptions
 
 Below are brief descriptions of what the different scripts and functions do, sorted by subfolder.
 
+We acknowledge the use of ChatGPT to help with developing data processing code based on instructions from the authors (including editing existing code and generating new code). All AI-generated code was reviewed, fact-checked, and edited by the authors.
+
 ### Length Estimation/
 
 - `length_estimation_v3.m` : used to estimate etch depth from optical microscope images, following the method outlined in Sec. S3A in the Supplementary Materials.
-- `helper.py` : contains helper functions to load scintillation enhancement and etch depth datasets.
 - `length_data_python.csv` : contains etch depth data for plotting in Python.
-- `plot_fn_of_etch_round.ipynb` : Jupyter Notebook that outputs Fig. 1(c)(iii).
 
 ### Scintillation Enhancement/
 
